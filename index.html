@@ -72,11 +72,32 @@
   <main class="hero">
     <div class="container">
       <div class="hero-bloks">
-        <article class="content">
-
-        </article>
-        <aside class="sidebar">
+        <div class="content hero__content">
+          <div class="slider">
+            <!-- Slider main container -->
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img src="img/meet_summer.jpg" alt="Встречайте лето" class="swiper-slide__image" />
+                  <span class="swiper-slide__caption">Встречайте лето здоровыми!</span>
+                </div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
           
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>          
+            </div>
+          </div>
+          <!-- /.slider -->
+        </div>
+        <aside class="sidebar">
+          ркркеркер
         </aside>
         <!-- /.sidebar -->
         <!-- /.content -->
@@ -89,12 +110,15 @@
 
   <footer class="footer">
     <div class="container">
-
+      <div class="footer__info">
+        Клиника "АкваЛор", 2015-2021. ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ. ПРОКОНСУЛЬТИРУЙТЕСЬ СО СПЕЦИАЛИСТОМ, Лиценз.№ ЛО-25-01-002756
+      </div>
+      <!-- /.footer__info -->
     </div>
     <!-- /.container -->
   </footer>
   <!-- /.footer -->
   <script src="js/swiper-bundle.min.js"></script>
-  <script src="main.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
