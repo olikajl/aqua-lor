@@ -352,6 +352,9 @@ template {
   display: none;
 }
 
+.navbar {
+  margin-bottom: 16px;
+}
 .navbar-top {
   background: url("../img/banner-aqua.png");
   background-size: cover;
@@ -386,11 +389,15 @@ template {
   border: 1px solid #fff;
 }
 .navbar-bottom {
+  display: flex;
+  align-items: center;
   padding-left: 64px;
+  padding-right: 64px;
   background: linear-gradient(to bottom, #b2ecee 0%, #0ECCD8 100%);
 }
 .navbar-menu {
   display: flex;
+  flex-basis: 80%;
   padding: 0;
   margin: 0;
 }
@@ -406,4 +413,17 @@ template {
   color: #fff;
   padding: 16px 16px;
   cursor: pointer;
+}
+.navbar-menu__link:hover {
+  background: hsl(189deg, 67%, 67%);
+}
+.navbar-menu_active {
+  background: hsl(189deg, 97%, 75%);
+}
+.navbar-menu_active:hover {
+  background: hsl(189deg, 97%, 75%);
+}
+.navbar-social {
+  text-align: right;
+  flex-basis: 20%;
 }/*# sourceMappingURL=style.css.map */
