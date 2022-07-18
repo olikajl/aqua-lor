@@ -473,4 +473,14 @@ template {
   line-height: 2em;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.footer__info {
+  padding: 32px;
+  background: linear-gradient(to bottom, #b2ecee 0%, #0ECCD8 100%);
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
