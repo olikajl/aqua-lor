@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/swiper-bundle.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -33,7 +34,7 @@
       </div>
       <!-- /.navbar-top -->
       <nav class="navbar-bottom">
-        <ul class="navbar-menu">
+        <ul class="navbar-menu navbar-bottom__menu">
           <li class="navbar-menu__item">
             <a href="#" class="navbar-menu__link navbar-menu_active">Главная</a>
           </li>
@@ -58,7 +59,19 @@
         </ul>
         <!-- /.navber-menu -->
         <div class="navbar-social">
-          fefeferf
+           <ul class="navbar-menu">
+            <li class="navbar-social__item">
+              <a href="https://www.facebook.com/pages/%D0%90%D0%BA%D0%B2%D0%B0%D0%9B%D0%BE%D1%80-%D0%9A%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0/1583906871870059" class="navbar-social__link navbar-social__facebook"></a>
+            </li>
+            <li class="navbar-social__item">
+              <a href="https://www.instagram.com/aqualor.klinika/" class="navbar-social__link navbar-social__instagram"></a>
+            </li>            
+           </ul>
+           <!-- /.navbar-menu -->
+            <div class="search-toggle">
+              <i class="fa fa-search search-toggle__icon"></i>
+              <a href="#search-container" class="screen-reader-text"></a>
+            </div>
         </div>
         <!-- /.navbar-social -->
 
@@ -97,7 +110,7 @@
           </div>
           <!-- /.slider -->
         </div>
-        <aside class="sidebar">
+        <aside class="sidebar hero__sidebar">
           <div class="sidebar-blok">
             <div class="sidebar__title">Направления ЛОР-клиники</div>
             <ul class="sidebar-menu">
@@ -116,7 +129,9 @@
               <img src="img/result-15588.png" alt="Мы вылечили более 15588 человек" />
             </div>
             <div class="sidebar__reviews">
-              <img src="img/reviews.png" alt="Отзывы" />
+              <a href="#">
+                <img src="img/reviews.png" alt="Отзывы" />
+              </a>              
             </div>
 
             <div class="sidebar-blok">
